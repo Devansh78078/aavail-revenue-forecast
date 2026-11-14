@@ -1,0 +1,40 @@
+{
+  "execution": "Image filesystem and command under Linux user/mount/PID namespaces",
+  "runtime_uid": 10001,
+  "health": {
+    "observed_through": "2019-07-31",
+    "status": "ready",
+    "trained_through": "2019-07-31",
+    "version": "20190731-e3ffcb86f3d4-20261114T165618957820Z"
+  },
+  "country": {
+    "baseline_prediction": 169826.81,
+    "country": "United Kingdom",
+    "date": "2019-08-01",
+    "days": 30,
+    "model": "trailing_30",
+    "observed_through": "2019-07-31",
+    "prediction": 169826.81,
+    "trained_through": "2019-07-31",
+    "version": "20190731-e3ffcb86f3d4-20261114T165618957820Z",
+    "window_end": "2019-08-30"
+  },
+  "worldwide": {
+    "baseline_prediction": 182877.6,
+    "country": "All Countries",
+    "date": "2019-08-01",
+    "days": 30,
+    "model": "trailing_30",
+    "observed_through": "2019-07-31",
+    "prediction": 182877.6,
+    "trained_through": "2019-07-31",
+    "version": "20190731-e3ffcb86f3d4-20261114T165618957820Z",
+    "window_end": "2019-08-30"
+  },
+  "journal_events": 2,
+  "training": {
+    "countries": 44,
+    "trained_through": "2019-07-31",
+    "version": "20190731-e3ffcb86f3d4-20261114T170450368498Z"
+  }
+}

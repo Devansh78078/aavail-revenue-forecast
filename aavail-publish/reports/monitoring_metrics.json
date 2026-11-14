@@ -1,0 +1,141 @@
+{
+  "actuals_through": "2019-12-06",
+  "matched": 594,
+  "pending": 180,
+  "missing": 0,
+  "relative_mae_alert_threshold": 0.1,
+  "scopes": [
+    {
+      "version": "20190731-e3ffcb86f3d4-20261114T165618957820Z",
+      "country": "All Countries",
+      "model": "trailing_30",
+      "selected": {
+        "origins": 99,
+        "actual_abs_total": 23794995.389999997,
+        "mae": 60503.07262626262,
+        "rmse": 65657.02629755632,
+        "wape": 0.25172537719915905,
+        "bias": -51959.35767676768
+      },
+      "baseline": {
+        "origins": 99,
+        "actual_abs_total": 23794995.389999997,
+        "mae": 60503.07262626262,
+        "rmse": 65657.02629755632,
+        "wape": 0.25172537719915905,
+        "bias": -51959.35767676768
+      },
+      "exceeds_baseline": false
+    },
+    {
+      "version": "20190731-e3ffcb86f3d4-20261114T165618957820Z",
+      "country": "EIRE",
+      "model": "forest",
+      "selected": {
+        "origins": 99,
+        "actual_abs_total": 398126.77,
+        "mae": 6409.534242424243,
+        "rmse": 8414.613886206089,
+        "wape": 1.5938237210223265,
+        "bias": 6258.678080808079
+      },
+      "baseline": {
+        "origins": 99,
+        "actual_abs_total": 398126.77,
+        "mae": 1022.2633333333334,
+        "rmse": 1189.4933800788951,
+        "wape": 0.25420061554765583,
+        "bias": -27.964141414141427
+      },
+      "exceeds_baseline": true
+    },
+    {
+      "version": "20190731-e3ffcb86f3d4-20261114T165618957820Z",
+      "country": "France",
+      "model": "forest_activity",
+      "selected": {
+        "origins": 99,
+        "actual_abs_total": 711281.1199999999,
+        "mae": 5109.476868686868,
+        "rmse": 7604.487963751764,
+        "wape": 0.7111649610494372,
+        "bias": -4261.578888888889
+      },
+      "baseline": {
+        "origins": 99,
+        "actual_abs_total": 711281.1199999999,
+        "mae": 5903.790808080808,
+        "rmse": 7937.850993514007,
+        "wape": 0.8217219233936649,
+        "bias": -2884.0354545454547
+      },
+      "exceeds_baseline": false
+    },
+    {
+      "version": "20190731-e3ffcb86f3d4-20261114T165618957820Z",
+      "country": "Germany",
+      "model": "ridge",
+      "selected": {
+        "origins": 99,
+        "actual_abs_total": 450347.21,
+        "mae": 1961.7707070707072,
+        "rmse": 2591.134321990267,
+        "wape": 0.43125680738646077,
+        "bias": -1836.1662626262628
+      },
+      "baseline": {
+        "origins": 99,
+        "actual_abs_total": 450347.21,
+        "mae": 1207.2463636363639,
+        "rmse": 1605.0226100188486,
+        "wape": 0.2653894314122653,
+        "bias": -1115.130404040404
+      },
+      "exceeds_baseline": true
+    },
+    {
+      "version": "20190731-e3ffcb86f3d4-20261114T165618957820Z",
+      "country": "Norway",
+      "model": "trailing_30",
+      "selected": {
+        "origins": 99,
+        "actual_abs_total": 55977.96,
+        "mae": 208.49646464646466,
+        "rmse": 234.60773639581384,
+        "wape": 0.3687370886684688,
+        "bias": -69.51161616161615
+      },
+      "baseline": {
+        "origins": 99,
+        "actual_abs_total": 55977.96,
+        "mae": 208.49646464646466,
+        "rmse": 234.60773639581384,
+        "wape": 0.3687370886684688,
+        "bias": -69.51161616161615
+      },
+      "exceeds_baseline": false
+    },
+    {
+      "version": "20190731-e3ffcb86f3d4-20261114T165618957820Z",
+      "country": "United Kingdom",
+      "model": "trailing_30",
+      "selected": {
+        "origins": 99,
+        "actual_abs_total": 20848934.950000003,
+        "mae": 54974.42565656566,
+        "rmse": 64272.16985153041,
+        "wape": 0.2610429814785335,
+        "bias": -46096.088484848486
+      },
+      "baseline": {
+        "origins": 99,
+        "actual_abs_total": 20848934.950000003,
+        "mae": 54974.42565656566,
+        "rmse": 64272.16985153041,
+        "wape": 0.2610429814785335,
+        "bias": -46096.088484848486
+      },
+      "exceeds_baseline": false
+    }
+  ]
+}

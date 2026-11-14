@@ -1,0 +1,1 @@
+cb473fafa1ee4b6a3f79e3e2d74e3d31dde9ef0c2492a2691abc2a6377f02d04  aavail-forecast-linux-amd64.tar

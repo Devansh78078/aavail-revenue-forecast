@@ -1,0 +1,28 @@
+/usr/local/lib/python3.12/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 2] No such file or directory.  joblib will operate in serial mode
+  warnings.warn("%s.  joblib will operate in serial mode" % (e,))
+test_failed_training_keeps_served_model (test_api.APITests.test_failed_training_keeps_served_model) ... ok
+test_health_and_countries (test_api.APITests.test_health_and_countries) ... ok
+test_invalid_requests (test_api.APITests.test_invalid_requests) ... ok
+test_missing_model_is_unavailable (test_api.APITests.test_missing_model_is_unavailable) ... ok
+test_observations_refresh_when_files_are_published (test_api.APITests.test_observations_refresh_when_files_are_published) ... ok
+test_operator_token_and_log_isolation (test_api.APITests.test_operator_token_and_log_isolation) ... ok
+test_predict_country_and_aggregate (test_api.APITests.test_predict_country_and_aggregate) ... ok
+test_training_publishes_new_model (test_api.APITests.test_training_publishes_new_model) ... ok
+test_concurrent_writes (test_events.LogTests.test_concurrent_writes) ... ok
+test_monitor_uses_mature_forecasts_and_deduplicates (test_events.LogTests.test_monitor_uses_mature_forecasts_and_deduplicates) ... ok
+test_persists_and_filters_events (test_events.LogTests.test_persists_and_filters_events) ... ok
+test_aliases_zero_days_and_aggregate (test_ingest.IngestTests.test_aliases_zero_days_and_aggregate) ... ok
+test_invalid_date_reports_filename (test_ingest.IngestTests.test_invalid_date_reports_filename) ... ok
+test_overlap_is_detected (test_ingest.IngestTests.test_overlap_is_detected) ... ok
+test_deserialized_model_matches_original (test_model.ModelTests.test_deserialized_model_matches_original) ... ok
+test_future_changes_only_targets (test_model.ModelTests.test_future_changes_only_targets) ... ok
+test_gap_in_appended_observations_is_rejected (test_model.ModelTests.test_gap_in_appended_observations_is_rejected) ... ok
+test_new_observations_do_not_leak_into_earlier_forecast (test_model.ModelTests.test_new_observations_do_not_leak_into_earlier_forecast) ... ok
+test_rejects_dates_seen_by_fit_and_unobserved_dates (test_model.ModelTests.test_rejects_dates_seen_by_fit_and_unobserved_dates) ... ok
+test_target_is_inclusive_thirty_days (test_model.ModelTests.test_target_is_inclusive_thirty_days) ... ok
+test_validates_multiple_models_and_folds (test_model.ModelTests.test_validates_multiple_models_and_folds) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 4.219s
+
+OK
