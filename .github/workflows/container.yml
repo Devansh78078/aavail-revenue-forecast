@@ -1,0 +1,14 @@
+name: Test and smoke-test Docker image
+on: [push, pull_request]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: aavail-publish
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/fetch_data.py
+      - run: docker build --tag aavail-forecast:1.0 .
+      - run: docker run --rm aavail-forecast:1.0 ./run_tests.sh
+      - run: sh scripts/docker_smoke.sh aavail-forecast:1.0
